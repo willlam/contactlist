@@ -8,7 +8,7 @@
 
 #import "inputCollector.h"
 
-@implementation inputCollector
+@implementation InputCollector
 
 -(NSString *)inputForPrompt:(NSString *)promptString {
 	NSLog(@"\n%@", promptString);

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface inputCollector : NSObject
+@interface InputCollector : NSObject
 
 
 // Last time, we just printed all this from the main.m file, and things got a bit messy. Now we're going to create an InputCollector object to clean this up a bit.
