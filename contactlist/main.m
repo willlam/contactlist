@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "inputCollector.h"
 
 int main(int argc, const char * argv[]) {
-	@autoreleasepool {
-	    // insert code here...
-	    NSLog(@"Hello, World!");
-	}
+
+	
+	 NSString *menuString = @"What would you like to do next?\nnew - Create a new contact list\nlist - List all contacts\nquit - Exit Application";
+	
+	
     return 0;
 }
